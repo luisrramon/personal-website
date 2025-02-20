@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+    @apply bg-gray-800 p-4;
+}
+
+.navbar ul {
+    @apply flex justify-center space-x-4;
+}
+
+.navbar li a {
+    @apply text-white hover:bg-gray-700 p-2 rounded;
+}
+
+
+.section {
+    @apply p-16 text-center;
+}
+
+.section-title {
+    @apply text-3xl font-bold;
+}
+
+.hero-title {
+    @apply text-4xl font-bold;
+}
+
+.hero-subtitle {
+    @apply mt-4;
+}
+
+.hero-description {
+    @apply mt-2;
+}
